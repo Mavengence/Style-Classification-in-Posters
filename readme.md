@@ -79,7 +79,7 @@ Furthermore, if there is a new poster, the clustering should present all posters
 ```
 ## Links to Ressources
 
-- Final Report as [PDF](https://github.com/Mavengence/Machine_Learning_in_the_Industry_4.0_Seminar_SS2020.FAU/blob/master/Paper/L%C3%B6hr_Tim_MADI40SS20_paper.pdf)
+- Final Report as [PDF](https://github.com/Mavengence/Style-Classification-in-Posters/blob/master/Report/report.pdf)
 
 ## Ressources
 - PyTorch: https://pytorch.org/
