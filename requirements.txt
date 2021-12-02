@@ -1,0 +1,14 @@
+neptune-client==0.4.122
+numpy==1.18.5
+pytorch-lightning==0.9.0
+seaborn==0.10.1
+tb-nightly==2.4.0a20200901
+tensorboard==2.2.0
+tensorboard-plugin-wit==1.7.0
+tensorboardX==2.1
+tensorflow==1.14.0
+tensorflow-estimator==1.14.0
+tf-estimator-nightly==2.4.0.dev2020091101
+tf-nightly==2.4.0.dev20200911
+torch==1.6.0
+torchvision==0.7.0

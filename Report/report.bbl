@@ -1,0 +1,42 @@
+\begin{thebibliography}{}
+
+\bibitem[Blei et~al., 2001]{Blei.2001}
+Blei, D., Ng, A., and Jordan, M. (2001).
+\newblock {Latent Dirichlet Allocation}.
+\newblock volume~3, pages 601--608.
+
+\bibitem[Devlin et~al., 2019]{Devlin.2019}
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. (2019).
+\newblock {BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding}.
+\newblock In {\em {Proceedings of the 2019 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}}, pages 4171--4186,
+  Minneapolis, Minnesota. {Association for Computational Linguistics}.
+
+\bibitem[{K. Smelyakov} et~al., 2021]{K.Smelyakov.2021}
+{K. Smelyakov}, {A. Chupryna}, {Dmytro Darahan}, and {Serhii Midina} (2021).
+\newblock {Effectiveness of Modern Text Recognition Solutions and Tools for
+  Common Data Sources}.
+\newblock In {\em {COLINS}}.
+
+\bibitem[Li and Wu, 2012]{Li.2012}
+Li, Y. and Wu, H. (2012).
+\newblock {A Clustering Method Based on K-Means Algorithm}.
+\newblock {\em {Physics Procedia}}, 25:1104--1109.
+
+\bibitem[Riba et~al., ]{Riba.05.10.2019}
+Riba, E., Mishkin, D., Ponsa, D., Rublee, E., and Bradski, G.
+\newblock {Kornia: an Open Source Differentiable Computer Vision Library for
+  PyTorch}.
+
+\bibitem[Tan and {Le V}, 2019]{Tan.}
+Tan, M. and {Le V}, Q. (2019).
+\newblock {EfficientNetV2: Smaller Models and Faster Training}.
+\newblock {\em {International Conference on Machine Learning}}.
+
+\bibitem[Zhuang et~al., ]{Zhuang.07.11.2019}
+Zhuang, F., Qi, Z., Duan, K., Xi, D., Zhu, Y., Zhu, H., Xiong, H., and He, Q.
+\newblock {A Comprehensive Survey on Transfer Learning}.
+
+\end{thebibliography}
