@@ -22,6 +22,7 @@
 tim.loehr@fau.de}
 }
 
+
 \maketitle
 
 \begin{abstract}
@@ -58,14 +59,7 @@ Since the research question binds not to a particular approach, I used four diff
 \subsection{Style Classification}
 For this approach, I used data from WikiArt \footnote{www.wikiart.org} to train a Transfer Learning neural network. Since the poster dataset is not labeled, it seems like a good approach to perform Transfer Learning. This technique allows using a trained network from a similar domain to predict the labels it was trained on. A survey of Transfer Learning points out that for my specific problem, this could be a good approach if another dataset from a similar domain is used \cite{Zhuang.07.11.2019}.
 
-Wikiart is an open platform that provides images of famous painters to download. The pictures from WikiArt show the ancient painting, but there is also an extensive description of the year, style, and genre provided. I used the tool from lucasdavid \footnote{https://github.com/lucasdavid/wikiart} to download the data from WikiArt. In total, I downloaded 17.2 Gigabytes of WikiArt images. The idea is that these paintings can infer the style of the posters provided by the museum and therefore implicitly cluster the images based on their predicted style. If the neural network would learn how, e.g., \textit{Expressionism} in a painting looks like, it could identify all posters that advertise for expressionism exhibitions. Originally the genres of the WikiArt images were distributed as shown in Figure \ref{fig:wikiart_labels}. It can be seen that most images can be clustered into 20 to 30 different genres.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{../Imgs/num_genres}
-\caption{Genre Distribution of the Wikiart dataset}
-\label{fig:wikiart_labels}
-\end{figure}
+Wikiart is an open platform that provides images of famous painters to download. The pictures from WikiArt show the ancient painting, but there is also an extensive description of the year, style, and genre provided. I used the tool from lucasdavid \footnote{https://github.com/lucasdavid/wikiart} to download the data from WikiArt. In total, I downloaded 17.2 Gigabytes of WikiArt images. The idea is that these paintings can infer the style of the posters provided by the museum and therefore implicitly cluster the images based on their predicted style. If the neural network would learn how, e.g., \textit{Expressionism} in a painting looks like, it could identify all posters that advertise for expressionism exhibitions. For the WikiArt images, there exist more than 400 different genres. I selected only the 20 most common genres, because they covered more than 70\% of all the image labels. That was important to have an train dataset with evenly distributed labels.
 
 The WikiArtimages all had different sizes, so I had to use different data augmentation methods like \newline
 
